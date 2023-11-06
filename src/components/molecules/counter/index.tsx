@@ -9,7 +9,7 @@ interface CounterProps{
     isActive: boolean;
 }
 
-const Counter: React.FC<CounterProps> = ({time, handleStartStop, is Active}) => {
+const Counter: React.FC<CounterProps> = ({time, handleStartStop, isActive}) => {
     return (
         <View>
             <Timer time={time} />
